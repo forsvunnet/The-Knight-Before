@@ -25,22 +25,17 @@ function Start () {
 		new Vector3(last_x, -3.5, 0),
 		Quaternion.identity
 	);
-
-
 	Instantiate(
 		background,
 		new Vector3(-500, -10, 0),
 		Quaternion.identity
 	);
-	Debug.Log( _knight.position );
-	Debug.Log( _knight );
-	Debug.Log( last_x + 20 );
 }
 
 function Update () {
 	if ( last_x < _knight.position.x ) {
 		//Debug.Log( _knight.position.x );
-		last_x += 20;
+		last_x += 35;
 		Instantiate(
 			ground,
 			new Vector3(last_x, -3.5, 0),
