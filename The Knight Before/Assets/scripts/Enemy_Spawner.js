@@ -12,7 +12,7 @@ function Update () {
 	spawn_time += 2;
 	var _enemy = Instantiate(
 		enemy,
-		new Vector3( (spawn_time*15), -2.5, 0),
+		new Vector3( (spawn_time*15), -1.75, 0),
 		Quaternion.identity
 	);
 	

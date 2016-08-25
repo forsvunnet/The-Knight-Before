@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/God_Script.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/animations/knightmare/knightmare.json">
     <Files>
-      <File FileName="Assets/scripts/God_Script.js" Line="19" Column="12" />
+      <File FileName="Assets/animations/knightmare/knightmare.json" Line="1" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
