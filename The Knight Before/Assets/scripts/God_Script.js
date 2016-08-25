@@ -16,7 +16,7 @@ function Start () {
 
 	// set up the camera to follow the knight
 	var camera  = GameObject.Find('Main Camera');
-	var follower = camera.GetComponent( UnityStandardAssets._2D.Camera2DFollow );
+	var follower = camera.GetComponent( Camera_Follow );
 	follower.target = _knight;
 
 	// Create the first ground and the first landscape
