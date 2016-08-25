@@ -10,7 +10,7 @@ function Start () {
 	// Create the knight
 	_knight = Instantiate(
 		knight,
-		new Vector3(0, 0, 0),
+		new Vector3(0, -1.05, -0.5),
 		Quaternion.identity
 	);
 
