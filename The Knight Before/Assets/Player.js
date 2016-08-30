@@ -6,7 +6,7 @@ function Start () {
 }
 
 function Update () {
-	if ( Input.GetAxis( 'Fire1' ) ) {
-		anim.SetTrigger( 'Swing' );
+	if ( Input.GetAxis("Fire1") ) {
+		anim.SetTrigger("slash");
 	}
 }
